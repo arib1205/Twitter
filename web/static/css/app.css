@@ -1,0 +1,76 @@
+/* This file is for your main application css. */
+
+/* This file is for your main application css. */
+
+
+.login-container{
+    width:100% !important;
+    height: 100% !important;
+}
+.form-bottom{
+    padding: 25px 25px 30px 25px;
+    background: #eee;
+    -moz-border-radius: 0 0 4px 4px;
+    -webkit-border-radius: 0 0 4px 4px;
+    border-radius: 0 0 4px 4px;
+    text-align: left;
+}
+.form-bottom form button.btn {
+    width: 100%;
+}
+
+button.btn {
+    height: 50px;
+    margin: 0;
+    padding: 0 20px;
+    vertical-align: middle;
+    background: #19b9e7;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 50px;
+    color: #fff;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    text-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -o-transition: all .3s;
+    -moz-transition: all .3s;
+    -webkit-transition: all .3s;
+    -ms-transition: all .3s;
+    transition: all .3s;
+}
+
+.form-top {
+    overflow: hidden;
+    padding: 0 25px 15px 25px;
+    background: #fff;
+    -moz-border-radius: 4px 4px 0 0;
+    -webkit-border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0;
+    text-align: left;
+}
+
+/* make sidebar nav vertical */ 
+@media (min-width: 768px) {
+    .sidebar-nav .navbar .navbar-collapse {
+      padding: 0;
+      max-height: none;
+    }
+    .sidebar-nav .navbar ul {
+      float: none;
+      display: block;
+    }
+    .sidebar-nav .navbar li {
+      float: none;
+      display: block;
+    }
+    .sidebar-nav .navbar li a {
+      padding-top: 12px;
+      padding-bottom: 12px;
+    }
+  }
